@@ -1,0 +1,21 @@
+{
+  "name": "node_parser_bot",
+  "version": "1.0.0",
+  "description": "nodescr",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Yaroslav Lypynets",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "download": "^8.0.0",
+    "https": "^1.0.0",
+    "image-to-base64": "^2.2.0",
+    "mysql2": "^2.3.3",
+    "nightmare": "^2.8.0",
+    "node-fetch": "^3.2.4",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
