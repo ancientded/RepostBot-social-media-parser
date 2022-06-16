@@ -7,3 +7,5 @@ Telegram bot for social media scraping
 Require NodeJS and OpenServer for MySQL DB (Need to configure phpMyAdmin). 
 
 "npm -install" in source folder to download and install all required packages
+
+"db image.sql" to configure database
