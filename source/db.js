@@ -16,6 +16,7 @@ let selectAction = {
     }
 }
 
+//change to your bot username
 const botUsername = 'repostfrombot';
 
 class DB {
