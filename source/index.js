@@ -2,6 +2,8 @@ const PageParser = require("./PageParser.js");
 const DB = require('./db.js');
 
 let TelegramBot = require('node-telegram-bot-api');
+
+//change to your token
 let token = "5361193451:AAG4FtV4DgV8mfoHqdcyYI32IBrOMKbCdU8";
 
 let bot = new TelegramBot(token, {
