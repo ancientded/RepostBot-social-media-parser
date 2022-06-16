@@ -53,6 +53,7 @@ function intervalReload(bot) {
                     if (data.type === 'group') {
                         bot.getChatAdministrators(data.id).then(admins => {                            
                             admins.forEach(admin => {
+                                //change to your bot username
                                 if (admin.user.username === 'repostfrombot') {
                                     isBotInGroup = true;
                                 }
